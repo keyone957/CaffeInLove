@@ -1,0 +1,46 @@
+﻿fg
+bg room
+showmenu
+bgm brightness
+fgout 1.0
+spr yeon3 (0.2,-0.55) 0.4
+spr arin3 (0.8,-0.6) 0.4
+name 최아린
+text 아까 어떠냐는 둥 그랬잖아~
+name 나
+text 어쩌다보니 목적어가 생략됐을 뿐입니다.
+removespr arin3
+spr arin4 (0.8,-0.6) 0.4
+name 최아린
+text 그래그래. 바로 까이는 모습이 안타깝더라고.
+name 나
+text 언제 까였어요? 착하게 생겼다고 하셨는데.
+removespr arin4
+spr arin1 (0.8,-0.6) 0.4
+name 최아린
+text 그렇게 여자 마음을 모르니? 착하게 생겼다는 건 그냥 마음에 안 든다는 걸 돌려서 말한 거야.
+name 나
+text 서연씨. 저 말 진짜에요?
+spr yeon3 (-0.8,-0.55) 0.4
+name 서연
+text 나쁘게 생긴 것보다는 낫지 않을까요. 사장님.
+name 나
+text 왜 은근슬쩍 대답을 회피하시죠?!
+removespr yeon3
+spr yeon2 (-0.8,-0.55) 0.4
+name 서연
+text 하아. 정말 진실을 원하세요?
+select
+selectitem yeon 서연한테 연락한다
+selectitem jia 나지아한테 연락한다
+selectend
+label yeon
+text 서연씨한테 연락하자.
+jump yeon_route
+label jia
+text 지아씨한테 연락하자.
+jump jia_route
+label yeon_route
+scenario yeon_route
+label jia_route
+scenario jia_route
