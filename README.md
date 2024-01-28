@@ -1,3 +1,3 @@
 # CaffeInLove
 
-[Ä«ÆäÀÎ·¯ºê ³ë¼Ç](https://keyone957.notion.site/143d5726b5c54c01928df8d85fd91132?pvs=4)
+[ì¹´í˜ì¸ëŸ¬ë¸Œ ë…¸ì…˜](https://keyone957.notion.site/143d5726b5c54c01928df8d85fd91132?pvs=4)
